@@ -11,13 +11,15 @@ public class Moving : MonoBehaviour
     public float fuerzaSalto;
     private bool enSuelo;
     public float velocidadMovimiento;
+    int contador;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        velocidadMovimiento = 2.2f;
+        velocidadMovimiento = 2.8f;
         fuerzaSalto = 5f;
-        enSuelo=false;
+        enSuelo = false;
     }
 
     void Update()
@@ -36,47 +38,57 @@ public class Moving : MonoBehaviour
             enSuelo = false;
             jump = false;
         }
-   
+
         if (enSuelo)
         {
-            anim.SetBool("jumpState", false);       
+            anim.SetBool("jumpState", false);
         }
 
     }
 
-//Colision de personaje y suelo
-    bool OnCollisionEnter2D(Collision2D suelo) {
-
-        if (suelo.gameObject.tag == "suelo"){
+    //Colision de personaje y suelo
+    bool OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "suelo")
+        {
             enSuelo = true;
+  
         }
-        return enSuelo;  
+
+        if (other.gameObject.tag == "Huevo")
+        {
+            contador += 1;
+            Debug.Log("Puntaje: " + contador);
+        }
+
+        return enSuelo;
     }
 
-//Movimiento del personaje en sentido horiazontal
-    void movimiento(float sentidoMovimiento){
+    //Movimiento del personaje en sentido horiazontal
+    void movimiento(float sentidoMovimiento)
+    {
 
-        if(sentidoMovimiento > 0){
-
+        if (sentidoMovimiento > 0)
+        {
             rb.constraints = RigidbodyConstraints2D.None;
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             rb.velocity = new Vector2(velocidadMovimiento, rb.velocity.y);
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
-      
-        if(sentidoMovimiento < 0){
+
+        if (sentidoMovimiento < 0)
+        {
 
             rb.constraints = RigidbodyConstraints2D.None;
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             rb.velocity = new Vector2(-velocidadMovimiento, rb.velocity.y);
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
- 
+
         if (sentidoMovimiento == 0)
         {
             rb.constraints = RigidbodyConstraints2D.FreezePositionX;
         }
 
     }
-
 }

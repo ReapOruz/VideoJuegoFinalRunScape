@@ -6,6 +6,8 @@ TagManager:
   tags:
   - suelo
   - LimitePantalla
+  - Huevo
+  - Demon
   layers:
   - Default
   - TransparentFX
