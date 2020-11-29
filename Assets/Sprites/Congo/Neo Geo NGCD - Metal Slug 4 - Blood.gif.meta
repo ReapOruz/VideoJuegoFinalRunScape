@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 70b8a863ade159849afa63321d17b79c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6250026552339828118
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_0
+  - first:
+      213: 4968798395621587817
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_1
+  - first:
+      213: 6887320231491134561
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_2
+  - first:
+      213: -5629423113808343826
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_3
+  - first:
+      213: 5227542529100701406
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_4
+  - first:
+      213: 575066071956336039
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_5
+  - first:
+      213: -2605574367464017044
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_6
+  - first:
+      213: -2651513539168929353
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_7
+  - first:
+      213: 2506556793952194670
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_8
+  - first:
+      213: -5499978820193264395
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_9
+  - first:
+      213: 1507967992032994051
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_10
+  - first:
+      213: -5575164203108290766
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_11
+  - first:
+      213: 1510307076614285054
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_12
+  - first:
+      213: 8605030941114606683
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_13
+  - first:
+      213: -5546460071753731510
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_14
+  - first:
+      213: -8729027229666917054
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_15
+  - first:
+      213: -2564047407580223906
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_16
+  - first:
+      213: -2504654652382717850
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_17
+  - first:
+      213: -6603316589092882322
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_18
+  - first:
+      213: 3721356554522515947
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_19
+  - first:
+      213: -720675788308128591
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_20
+  - first:
+      213: 7232912653485525640
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_21
+  - first:
+      213: -6831389204073391032
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_22
+  - first:
+      213: 1137443822170600263
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_23
+  - first:
+      213: -2874347889110951817
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_24
+  - first:
+      213: -7278817594036055733
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_25
+  - first:
+      213: 3673861727193362601
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_26
+  - first:
+      213: 3003673045590821932
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_27
+  - first:
+      213: 8479711896373104560
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_28
+  - first:
+      213: -6753026026559938604
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_29
+  - first:
+      213: 7657437602542824627
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_30
+  - first:
+      213: -5453093981562403527
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_31
+  - first:
+      213: -8274340745905732549
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_32
+  - first:
+      213: -4192458518440373783
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_33
+  - first:
+      213: 933874445629564442
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_34
+  - first:
+      213: -2119286920328132017
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_35
+  - first:
+      213: -2374098607217292640
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_36
+  - first:
+      213: -9076202504480159615
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_37
+  - first:
+      213: 7979363074872928758
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_38
+  - first:
+      213: -759883956823829775
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_39
+  - first:
+      213: 6634645893494712767
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_40
+  - first:
+      213: 1493834818568234408
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_41
+  - first:
+      213: -7497637058205469627
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_42
+  - first:
+      213: -3159373787281546372
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_43
+  - first:
+      213: 4678190037934544993
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_44
+  - first:
+      213: 5157156462627469880
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_45
+  - first:
+      213: -4436316969983660241
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_46
+  - first:
+      213: -3334059971253759288
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_47
+  - first:
+      213: 9178153635568091630
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_48
+  - first:
+      213: 3995652734867847732
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_49
+  - first:
+      213: -8059942781234377386
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_50
+  - first:
+      213: -760151012051235374
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_51
+  - first:
+      213: -2155217378508355866
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_52
+  - first:
+      213: 3050914518741313021
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_53
+  - first:
+      213: -4487981611004686049
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_54
+  - first:
+      213: 2393092098845945559
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_55
+  - first:
+      213: -4132017976259803553
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_56
+  - first:
+      213: 4854718090979093873
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_57
+  - first:
+      213: 1498141400505457675
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_58
+  - first:
+      213: -1112720576573412429
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_59
+  - first:
+      213: 4378753595223386223
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_60
+  - first:
+      213: 4705046519866999441
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_61
+  - first:
+      213: -3660118440943432630
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_62
+  - first:
+      213: 4306080550610062204
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_63
+  - first:
+      213: -5871174187950367002
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_64
+  - first:
+      213: 587347357735526466
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_65
+  - first:
+      213: -955805715460089755
+    second: Neo Geo NGCD - Metal Slug 4 - Blood_66
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_36
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 184
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa401f25e18d0fd0800000000000000
+      internalID: -2374098607217292640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_37
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 176
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18803f2f8e9da0280800000000000000
+      internalID: -9076202504480159615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_38
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 172
+        width: 99
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f96baba0746cbe60800000000000000
+      internalID: 7979363074872928758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9a14cc94ff21c50800000000000000
+      internalID: 6634645893494712767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_60
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 49
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68214af13574cc30800000000000000
+      internalID: 4378753595223386223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_64
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 11
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee96c0de26658ea0800000000000000
+      internalID: -5871174187950367002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_65
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 11
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24027995f4da62800800000000000000
+      internalID: 587347357735526466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 4 - Blood_66
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 8
+        width: 109
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56896bf04cb4cb2f0800000000000000
+      internalID: -955805715460089755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

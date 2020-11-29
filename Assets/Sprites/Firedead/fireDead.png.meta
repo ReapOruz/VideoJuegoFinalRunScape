@@ -1,0 +1,1162 @@
+fileFormatVersion: 2
+guid: d1ee54f5ee770f241a82dae1775704a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -942523642631977533
+    second: fireDead_0
+  - first:
+      213: -871069857131598037
+    second: fireDead_1
+  - first:
+      213: 7694691278652061041
+    second: fireDead_2
+  - first:
+      213: -2000083862743153944
+    second: fireDead_3
+  - first:
+      213: 4818190815425608921
+    second: fireDead_4
+  - first:
+      213: -5196847932177463594
+    second: fireDead_5
+  - first:
+      213: 9111559637628994869
+    second: fireDead_6
+  - first:
+      213: -3303270037399607225
+    second: fireDead_7
+  - first:
+      213: 4886714854014606555
+    second: fireDead_8
+  - first:
+      213: 7227729830039601966
+    second: fireDead_9
+  - first:
+      213: -2872742040401243211
+    second: fireDead_10
+  - first:
+      213: -2006980405224555682
+    second: fireDead_11
+  - first:
+      213: -2760540020714755844
+    second: fireDead_12
+  - first:
+      213: -4487050091158615762
+    second: fireDead_13
+  - first:
+      213: -2522266175287245901
+    second: fireDead_14
+  - first:
+      213: -7722859025950024290
+    second: fireDead_15
+  - first:
+      213: -8885684086700751258
+    second: fireDead_16
+  - first:
+      213: 792127137063586134
+    second: fireDead_17
+  - first:
+      213: -7453153483050392903
+    second: fireDead_18
+  - first:
+      213: 4109575529913017496
+    second: fireDead_19
+  - first:
+      213: 5019710877808949684
+    second: fireDead_20
+  - first:
+      213: 3837041323223029653
+    second: fireDead_21
+  - first:
+      213: -9115288524783148723
+    second: fireDead_22
+  - first:
+      213: -1509605955457608569
+    second: fireDead_23
+  - first:
+      213: 2643941987918640908
+    second: fireDead_24
+  - first:
+      213: -8374326176422767819
+    second: fireDead_25
+  - first:
+      213: -7742772052140526626
+    second: fireDead_26
+  - first:
+      213: -399169327092053173
+    second: fireDead_27
+  - first:
+      213: -8151107374374255268
+    second: fireDead_28
+  - first:
+      213: 6262122076860058229
+    second: fireDead_29
+  - first:
+      213: 8560560383456097538
+    second: fireDead_30
+  - first:
+      213: 2065022478280886944
+    second: fireDead_31
+  - first:
+      213: -841770322481758379
+    second: fireDead_32
+  - first:
+      213: -7517929513318675089
+    second: fireDead_33
+  - first:
+      213: -855030583620042245
+    second: fireDead_34
+  - first:
+      213: 868917127091495670
+    second: fireDead_35
+  - first:
+      213: -375477441146945757
+    second: fireDead_36
+  - first:
+      213: -4753160511248726005
+    second: fireDead_37
+  - first:
+      213: 3686006701680237791
+    second: fireDead_38
+  - first:
+      213: -982881637540434999
+    second: fireDead_39
+  - first:
+      213: 3032362216389357768
+    second: fireDead_40
+  - first:
+      213: 6695614061844683375
+    second: fireDead_41
+  - first:
+      213: -82352199481641133
+    second: fireDead_42
+  - first:
+      213: -6146224235834698680
+    second: fireDead_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireDead_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 381
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c58380adbb7be2f0800000000000000
+      internalID: -942523642631977533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 381
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fee1f749659e3f0800000000000000
+      internalID: -871069857131598037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 381
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1753a5023f809ca60800000000000000
+      internalID: 7694691278652061041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 381
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e20430e2564e34e0800000000000000
+      internalID: -2000083862743153944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 317
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc3e7dc407add240800000000000000
+      internalID: 4818190815425608921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 308
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6c6daf65611e7b0800000000000000
+      internalID: -5196847932177463594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 310
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535c9ae1733c27e70800000000000000
+      internalID: 9111559637628994869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 313
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748ea97076d6822d0800000000000000
+      internalID: -3303270037399607225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 315
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc5a20d44911d340800000000000000
+      internalID: 4886714854014606555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 317
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23410c7cfd0e4460800000000000000
+      internalID: 7227729830039601966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 317
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b39d8ea558f128d0800000000000000
+      internalID: -2872742040401243211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 317
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bbb6374f5c524e0800000000000000
+      internalID: -2006980405224555682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 341
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf82c052a7790b9d0800000000000000
+      internalID: -2760540020714755844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 245
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e294b1b27bbcab1c0800000000000000
+      internalID: -4487050091158615762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 241
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b34501f64c1ffcd0800000000000000
+      internalID: -2522266175287245901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 244
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d54d322a4e2d490800000000000000
+      internalID: -7722859025950024290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 248
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6664cd9c665bfa480800000000000000
+      internalID: -8885684086700751258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 250
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6594f9d2f633efa00800000000000000
+      internalID: 792127137063586134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_18
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 249
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2e05a4564119890800000000000000
+      internalID: -7453153483050392903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 248
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8946a16cb25280930800000000000000
+      internalID: 4109575529913017496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 245
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b977f2a27899a540800000000000000
+      internalID: 5019710877808949684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_21
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 269
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597143301c8ef3530800000000000000
+      internalID: 3837041323223029653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 159
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412b1fa16dff7180800000000000000
+      internalID: -9115288524783148723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 159
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784922ab16dcc0be0800000000000000
+      internalID: -1509605955457608569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 159
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0771a4da3b21b420800000000000000
+      internalID: 2643941987918640908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_25
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 159
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533d01d26ba68cb80800000000000000
+      internalID: -8374326176422767819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_26
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 95
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3775f67d52c8490800000000000000
+      internalID: -7742772052140526626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 86
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4275ac9dd57af0800000000000000
+      internalID: -399169327092053173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_28
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 88
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c550b58870371ee80800000000000000
+      internalID: -8151107374374255268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 91
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a006bc9d687e650800000000000000
+      internalID: 6262122076860058229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 93
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205be2e10583dc670800000000000000
+      internalID: 8560560383456097538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_31
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 95
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa0127c00f68ac10800000000000000
+      internalID: 2065022478280886944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_32
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 95
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f32020a5e6154f0800000000000000
+      internalID: -841770322481758379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_33
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 95
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d073870f2faa790800000000000000
+      internalID: -7517929513318675089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_34
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 119
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf18b3fd6325224f0800000000000000
+      internalID: -855030583620042245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 23
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2aa8bf5830f0c00800000000000000
+      internalID: 868917127091495670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 19
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f7343b1490acaf0800000000000000
+      internalID: -375477441146945757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_37
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 22
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b080b96c2b1690eb0800000000000000
+      internalID: -4753160511248726005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_38
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 26
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc1c5dd093572330800000000000000
+      internalID: 3686006701680237791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 28
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbe522bb5a1c52f0800000000000000
+      internalID: -982881637540434999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 27
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c03432ae5d151a20800000000000000
+      internalID: 3032362216389357768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 26
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6adc5da3899bec50800000000000000
+      internalID: 6695614061844683375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_42
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 23
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357bc636c1d6bdef0800000000000000
+      internalID: -82352199481641133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireDead_43
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 47
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8441d212f9934baa0800000000000000
+      internalID: -6146224235834698680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DemonMove : MonoBehaviour
 {
+    public Animator animPlayer;
     public int tiempoJuego;
     public Animator anim;
     private Rigidbody2D rb;
@@ -21,6 +22,7 @@ public class DemonMove : MonoBehaviour
         anim.SetBool("attack", false);
         rb.velocity = new Vector2(velocidadMovimiento, rb.velocity.y);
         transform.localScale = new Vector3(1f, 1f, 1f);
+        
     }
 
     void Update()
@@ -34,18 +36,26 @@ public class DemonMove : MonoBehaviour
         if (distancia <= radioVision)
         {
             anim.SetBool("attack", true);
-        }else
+        }
+        else
         {
             anim.SetBool("attack", false);
         }
 
     }
 
-    /*bool juagdorCerca()
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("Jugador ha muerto");
+            animPlayer.SetBool("deadDemonFire", true);
+        }
+
+    }
 
 
-    }*/
+
 
 
 }

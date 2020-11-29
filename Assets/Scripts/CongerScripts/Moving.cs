@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Moving : MonoBehaviour
 {
+    public Text ContadorPuntos;
     public Animator anim;
     private float movimientoHorizontal;
     private bool jump;
@@ -13,13 +15,13 @@ public class Moving : MonoBehaviour
     public float velocidadMovimiento;
     int contador;
 
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         velocidadMovimiento = 2.8f;
         fuerzaSalto = 5f;
         enSuelo = false;
+
     }
 
     void Update()
@@ -44,6 +46,8 @@ public class Moving : MonoBehaviour
             anim.SetBool("jumpState", false);
         }
 
+        ContadorPuntos.text = contador.ToString();
+
     }
 
     //Colision de personaje y suelo
@@ -52,7 +56,6 @@ public class Moving : MonoBehaviour
         if (other.gameObject.tag == "suelo")
         {
             enSuelo = true;
-  
         }
 
         if (other.gameObject.tag == "Huevo")
@@ -61,10 +64,18 @@ public class Moving : MonoBehaviour
             Debug.Log("Puntaje: " + contador);
         }
 
+        if (other.gameObject.tag == "Pinchos")
+        {
+            enSuelo = true;
+        }
+
         return enSuelo;
     }
 
-    //Movimiento del personaje en sentido horiazontal
+
+
+
+    //Movimiento del personaje en sentido horizontal
     void movimiento(float sentidoMovimiento)
     {
 

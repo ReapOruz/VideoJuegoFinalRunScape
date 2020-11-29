@@ -56,10 +56,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Estado.cs" />
+    <Compile Include="Assets\Scripts\DemonScript\DemonMove.cs" />
     <Compile Include="Assets\Scripts\HuevoScripts\huevoScript.cs" />
     <Compile Include="Assets\Scripts\CongerScripts\Moving.cs" />
     <Compile Include="Assets\demonMove.cs" />
-    <Compile Include="Assets\Scripts\DemonScript\DemonMove.cs" />
+    <Compile Include="Assets\Scripts\Contadores\ContadorTiempo.cs" />
+    <Compile Include="Assets\Scripts\Pinchos\PinchosActive.cs" />
+    <Compile Include="Assets\Scripts\LavaScript\lavaScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
