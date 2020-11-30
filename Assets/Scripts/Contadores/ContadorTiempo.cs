@@ -11,7 +11,7 @@ public class ContadorTiempo : MonoBehaviour
 
     void Start()
     {
-        tiempoJuego = 10f;
+        tiempoJuego = 61f;
     }
 
     void Update()

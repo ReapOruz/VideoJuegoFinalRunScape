@@ -18,9 +18,10 @@ public class Moving : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        velocidadMovimiento = 2.8f;
-        fuerzaSalto = 5f;
+        velocidadMovimiento = 3f;
+        fuerzaSalto = 5.5f;
         enSuelo = false;
+        contador = 0;
 
     }
 
@@ -65,6 +66,11 @@ public class Moving : MonoBehaviour
         }
 
         if (other.gameObject.tag == "Pinchos")
+        {
+            enSuelo = true;
+        }
+
+        if (other.gameObject.tag == "Plataforma")
         {
             enSuelo = true;
         }

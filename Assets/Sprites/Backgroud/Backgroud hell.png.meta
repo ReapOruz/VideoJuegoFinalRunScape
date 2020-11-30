@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 5d4381a460e2cd94d99f57218df0d35a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8310041474015664521
+    second: Backgroud hell_0
+  - first:
+      213: 3561195190239829603
+    second: Backgroud hell_1
+  - first:
+      213: -3006852172469032945
+    second: Backgroud hell_2
+  - first:
+      213: -7048058812041420139
+    second: Backgroud hell_3
+  - first:
+      213: -6906234564236607425
+    second: Backgroud hell_4
+  - first:
+      213: -2329839501745401487
+    second: Backgroud hell_5
+  - first:
+      213: 8156960219750282426
+    second: Backgroud hell_6
+  - first:
+      213: -3191357068676147324
+    second: Backgroud hell_7
+  - first:
+      213: 1910443932495415194
+    second: Backgroud hell_8
+  - first:
+      213: 6355595130646508406
+    second: Backgroud hell_9
+  - first:
+      213: -30219946093433692
+    second: Backgroud hell_10
+  - first:
+      213: 575962387814172791
+    second: Backgroud hell_11
+  - first:
+      213: 7941272315840524223
+    second: Backgroud hell_12
+  - first:
+      213: -3250216181925277936
+    second: Backgroud hell_13
+  - first:
+      213: -5395990364779725453
+    second: Backgroud hell_14
+  - first:
+      213: -7228704343806886365
+    second: Backgroud hell_15
+  - first:
+      213: -5386999915986169987
+    second: Backgroud hell_16
+  - first:
+      213: 660674400774116012
+    second: Backgroud hell_17
+  - first:
+      213: -4518152978335696832
+    second: Backgroud hell_18
+  - first:
+      213: -6580828880332499055
+    second: Backgroud hell_19
+  - first:
+      213: -5905457466049024724
+    second: Backgroud hell_20
+  - first:
+      213: 314731658283430185
+    second: Backgroud hell_21
+  - first:
+      213: -7719820022755698731
+    second: Backgroud hell_22
+  - first:
+      213: 5100050616881246191
+    second: Backgroud hell_1
+  - first:
+      213: -2737096510579872667
+    second: Backgroud hell_0
+  - first:
+      213: 7597334761558456685
+    second: Backgroud hell_2
+  - first:
+      213: 2087250952611546403
+    second: Backgroud hell_3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Backgroud hell_2
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 125
+        width: 55
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d693b6696b72f6960800000000000000
+      internalID: 7597334761558456685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Backgroud hell_3
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 395
+        width: 22
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325c183cea767fc10800000000000000
+      internalID: 2087250952611546403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Backgroud hell_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 676
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefe7bbc30507c640800000000000000
+      internalID: 5100050616881246191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Backgroud hell_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 138
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171dac2315fbaafd0800000000000000
+      internalID: -2329839501745401487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
