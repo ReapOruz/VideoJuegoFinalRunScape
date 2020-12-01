@@ -325,10 +325,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animPlayer: {fileID: 1788967187}
-  tiempoJuego: 0
   anim: {fileID: 31273769}
   velocidadMovimiento: 0
   radioVision: 0
+  textoFinal: {fileID: 1045556945}
 --- !u!50 &31273773
 Rigidbody2D:
   serializedVersion: 4
@@ -416,7 +416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -587, y: 282}
+  m_AnchoredPosition: {x: 290, y: 213}
   m_SizeDelta: {x: 99.11188, y: 29.498108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &43122353
@@ -1037,6 +1037,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 175122045}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &175122045
 Animator:
   serializedVersion: 3
@@ -1368,6 +1370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 199688585}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &199688585
 Animator:
   serializedVersion: 3
@@ -1616,6 +1620,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 251766011}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &251766011
 Animator:
   serializedVersion: 3
@@ -1710,6 +1716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 257661060}
   - component: {fileID: 257661059}
+  - component: {fileID: 257661061}
   m_Layer: 0
   m_Name: Vacio
   m_TagString: vacio
@@ -1782,6 +1789,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &257661061
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257661058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.16}
+  m_EdgeRadius: 0
 --- !u!1 &276639602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2124,7 +2157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -487.30002, y: 281.75}
+  m_AnchoredPosition: {x: 392, y: 213}
   m_SizeDelta: {x: 73.80121, y: 28.99762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321214369
@@ -2827,6 +2860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 517757772}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &517757772
 Animator:
   serializedVersion: 3
@@ -3189,6 +3224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e52de437e8959941b4d625f5ed11bba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: {fileID: 31273768}
+  player: {fileID: 1788967186}
   tiempo: {fileID: 541056232}
   mensajeFinJuego: {fileID: 1045556945}
   tiempoJuego: 0
@@ -3274,6 +3311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 628151537}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &628151537
 Animator:
   serializedVersion: 3
@@ -3709,6 +3748,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 702259419}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &702259419
 Animator:
   serializedVersion: 3
@@ -4121,6 +4162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 811994751}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &811994751
 Animator:
   serializedVersion: 3
@@ -4600,6 +4643,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 828042491}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &828042491
 Animator:
   serializedVersion: 3
@@ -5403,6 +5448,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1005710773}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1005710773
 Animator:
   serializedVersion: 3
@@ -5569,6 +5616,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1015477125}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1015477125
 Animator:
   serializedVersion: 3
@@ -5687,7 +5736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -10.8, y: 84.8}
   m_SizeDelta: {x: 700, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045556945
@@ -5703,7 +5752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5713,13 +5762,13 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 25
-    m_FontStyle: 3
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -5979,6 +6028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1061293781}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1061293781
 Animator:
   serializedVersion: 3
@@ -6391,6 +6442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1102770808}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1102770808
 Animator:
   serializedVersion: 3
@@ -6804,6 +6857,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1167613617}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1167613617
 Animator:
   serializedVersion: 3
@@ -6970,6 +7025,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1179246773}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1179246773
 Animator:
   serializedVersion: 3
@@ -7383,6 +7440,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1230402444}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1230402444
 Animator:
   serializedVersion: 3
@@ -8373,6 +8432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1439010712}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1439010712
 Animator:
   serializedVersion: 3
@@ -9093,6 +9154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1552711935}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1552711935
 Animator:
   serializedVersion: 3
@@ -9259,6 +9322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1558236559}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1558236559
 Animator:
   serializedVersion: 3
@@ -9918,6 +9983,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1638327052}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1638327052
 Animator:
   serializedVersion: 3
@@ -11254,7 +11321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788967186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9, y: -2.19, z: 0}
+  m_LocalPosition: {x: -3, y: -2.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11272,10 +11339,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e11a6a4ed07851245a13fe203a242352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  demon: {fileID: 31273768}
   ContadorPuntos: {fileID: 321214369}
   anim: {fileID: 1788967187}
   fuerzaSalto: 0
   velocidadMovimiento: 0
+  mensajeFinJuego: {fileID: 1045556945}
 --- !u!50 &1788967191
 Rigidbody2D:
   serializedVersion: 4
@@ -11308,10 +11377,10 @@ CapsuleCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.675, y: 1}
+  m_Offset: {x: -0.00000011920929, y: 0}
+  m_Size: {x: 0.47435164, y: 1}
   m_Direction: 0
 --- !u!1 &1795243355
 GameObject:
@@ -11724,6 +11793,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1817760583}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1817760583
 Animator:
   serializedVersion: 3
@@ -12445,6 +12516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlayer: {fileID: 1788967186}
   anim: {fileID: 1942621268}
+  mensajeFinJuego: {fileID: 1045556945}
+  demon: {fileID: 31273768}
 --- !u!95 &1942621268
 Animator:
   serializedVersion: 3

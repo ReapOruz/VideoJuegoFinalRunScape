@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PinchosActive : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class PinchosActive : MonoBehaviour
     private Collider2D colliderPincho;
     private BoxCollider2D bcPincho;
     private Collider2D colliderPersonaje;
+    private Rigidbody2D rigidPlayer;
+    public Text mensajeFinJuego;
+    public GameObject demon;
+    private Rigidbody2D rigidDemon;
 
     void Start()
     {
@@ -21,13 +26,15 @@ public class PinchosActive : MonoBehaviour
         colliderPincho = GetComponent<BoxCollider2D>();
         bcPincho = GetComponent<BoxCollider2D>();
         colliderPersonaje = objectPlayer.GetComponent<CapsuleCollider2D>();
+        rigidPlayer = objectPlayer.GetComponent<Rigidbody2D>();
+        rigidDemon = demon.GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         activarPinchos(contactoPlayer);
 
-        if (tiempoActivacion > 1f)
+        if (tiempoActivacion > 1.5f)
         {
             bcPincho.size = new Vector2(0.6280966f, 0.9f);
         }
@@ -37,9 +44,12 @@ public class PinchosActive : MonoBehaviour
         }
 
 
-        if (tiempoActivacion > 1f && colliderPincho.IsTouching(colliderPersonaje))
+        if (tiempoActivacion > 1.5f && colliderPincho.IsTouching(colliderPersonaje))
         {
             animatorPlayer.SetBool("isDead", true);
+            rigidPlayer.bodyType = RigidbodyType2D.Static;
+            mensajeFinJuego.text = "Has muerto";
+            rigidDemon.bodyType = RigidbodyType2D.Static;
         }
 
         if (!colliderPincho.IsTouching(colliderPersonaje))
@@ -64,6 +74,9 @@ public class PinchosActive : MonoBehaviour
             {
                 Debug.Log("Jugador ha muerto");
                 animatorPlayer.SetBool("isDead", true);
+                rigidPlayer.bodyType = RigidbodyType2D.Static;
+                mensajeFinJuego.text = "Has muerto";
+                rigidDemon.bodyType = RigidbodyType2D.Static;
             }
 
         }

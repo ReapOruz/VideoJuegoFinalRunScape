@@ -29,13 +29,8 @@ public class Caida : MonoBehaviour
             //colliderObject.isTrigger = true;
         }
 
-        if (other.gameObject.tag == "Lava")
-        {
-            anim.SetBool("enSuelo", true);
-            rigidPlataforma.bodyType = RigidbodyType2D.Static;
-        }
 
-        if (other.gameObject.tag == "vacio" || other.gameObject.tag == "Pinchos" || other.gameObject.tag == "Huevo")
+        if (other.gameObject.tag == "vacio" || other.gameObject.tag == "Pinchos" || other.gameObject.tag == "Huevo" || other.gameObject.tag == "Lava")
         {
 
             Destroy(gameObject);
