@@ -14,18 +14,18 @@ public class DemonMove : MonoBehaviour
     GameObject player;
     private Rigidbody2D rigidPlayer;
     public Text textoFinal;
+    public GameObject sonidoFuego;
 
     void Start()
     {
-        radioVision = 4f;
+        radioVision = 4.7f;
         player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
-        velocidadMovimiento = 1.5f;
+        velocidadMovimiento = 1.6f;
         anim.SetBool("attack", false);
         rb.velocity = new Vector2(velocidadMovimiento, rb.velocity.y);
-        transform.localScale = new Vector3(1f, 1f, 1f);
+        //transform.localScale = new Vector3(1f, 1f, 1f);
         rigidPlayer = player.GetComponent<Rigidbody2D>();
-
 
     }
 
@@ -40,6 +40,7 @@ public class DemonMove : MonoBehaviour
         if (distancia <= radioVision)
         {
             anim.SetBool("attack", true);
+            Instantiate(sonidoFuego);
         }
         else
         {

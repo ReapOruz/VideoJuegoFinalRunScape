@@ -19,15 +19,14 @@ public class PlayerMoving : MonoBehaviour
     public Text mensajeFinJuego;
     int puntos;
     private int puntosGanar = 10;
-    
-    
-    
-
+    public GameObject sonidoSalto;
+    public GameObject sonidoPunto;
+   
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         velocidadMovimiento = 3f;
-        fuerzaSalto = 5.5f;
+        fuerzaSalto = 5.2f;
         enSuelo = false;
         puntos = 0;
         rigidBodyEnemy = demon.GetComponent<Rigidbody2D>();
@@ -55,6 +54,7 @@ public class PlayerMoving : MonoBehaviour
             anim.SetBool("jumpState", true);
             enSuelo = false;
             jump = false;
+            Instantiate(sonidoSalto);
         }
 
         if (enSuelo)
@@ -86,6 +86,8 @@ public class PlayerMoving : MonoBehaviour
         {
             puntos += 1;
             Debug.Log("Puntaje: " + puntos);
+            Instantiate(sonidoPunto);
+
         }
 
         if (other.gameObject.tag == "Pinchos")
@@ -100,7 +102,7 @@ public class PlayerMoving : MonoBehaviour
 
         if (other.gameObject.tag == "vacio")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
             mensajeFinJuego.text = "Has muerto";
             rigidBodyEnemy.bodyType = RigidbodyType2D.Static;
         }
@@ -112,6 +114,7 @@ public class PlayerMoving : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Static;
         }
 
+       
         return enSuelo;
     }
 

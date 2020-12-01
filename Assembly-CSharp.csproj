@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\HuevoScripts\huevoScript.cs" />
     <Compile Include="Assets\Scripts\CongerScripts\PlayerMoving.cs" />
     <Compile Include="Assets\demonMove.cs" />
+    <Compile Include="Assets\Scripts\Sonido\tiempoSonido.cs" />
+    <Compile Include="Assets\Scripts\Sonido\sonidoTempoFuego.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
