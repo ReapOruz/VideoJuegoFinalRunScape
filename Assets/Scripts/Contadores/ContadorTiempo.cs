@@ -35,13 +35,15 @@ public class ContadorTiempo : MonoBehaviour
             tiempo.text = timeInteger.ToString() + " s";
         }
 
-        if (timeInteger == 0)
+        if (timeInteger == 0 && mensajeFinJuego.text != "Nivel Superado")
         {
             mensajeFinJuego.text = "Se ha agotado el tiempo";
             rigidBodyEnemy.bodyType = RigidbodyType2D.Static;
             rigidBodyPlayer.bodyType = RigidbodyType2D.Static;
             tiempo.text = "0 s";
         }
+
+ 
 
 
 

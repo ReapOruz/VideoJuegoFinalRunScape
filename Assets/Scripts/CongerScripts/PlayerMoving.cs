@@ -21,6 +21,8 @@ public class PlayerMoving : MonoBehaviour
     private int puntosGanar = 10;
     public GameObject sonidoSalto;
     public GameObject sonidoPunto;
+    public GameObject sonidoExplosion;
+    private Rigidbody2D rigidPlayer;
    
     void Start()
     {
@@ -31,6 +33,7 @@ public class PlayerMoving : MonoBehaviour
         puntos = 0;
         rigidBodyEnemy = demon.GetComponent<Rigidbody2D>();
         demonAnimator = demon.GetComponent<Animator>();
+        rigidPlayer = gameObject.GetComponent<Rigidbody2D>();
 
     }
 
@@ -64,10 +67,12 @@ public class PlayerMoving : MonoBehaviour
 
         if (puntos == puntosGanar)
         {
-            mensajeFinJuego.text = "Has Ganado el Juego";
+            mensajeFinJuego.text = "Nivel Superado";
             rigidBodyEnemy.bodyType = RigidbodyType2D.Static;
+            rigidPlayer.bodyType = RigidbodyType2D.Static;
             demonAnimator.SetBool("isDeadDemon", true);
-
+            puntos = 0;
+            Instantiate(sonidoExplosion);
         }
 
         ContadorPuntos.text = puntos.ToString();

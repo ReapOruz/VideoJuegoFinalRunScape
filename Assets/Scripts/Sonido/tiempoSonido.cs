@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class tiempoSonido : MonoBehaviour
 {
-    private float tiempo = 0.6f;
+    private float tiempo = 1f;
     void Start()
     {
         Destroy(gameObject, tiempo);

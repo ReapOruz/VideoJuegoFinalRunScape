@@ -26,7 +26,6 @@ public class DemonMove : MonoBehaviour
         rb.velocity = new Vector2(velocidadMovimiento, rb.velocity.y);
         //transform.localScale = new Vector3(1f, 1f, 1f);
         rigidPlayer = player.GetComponent<Rigidbody2D>();
-
     }
 
     void Update()
@@ -40,7 +39,7 @@ public class DemonMove : MonoBehaviour
         if (distancia <= radioVision)
         {
             anim.SetBool("attack", true);
-            Instantiate(sonidoFuego);
+         
         }
         else
         {
@@ -59,6 +58,7 @@ public class DemonMove : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Jugador ha muerto");
+            Instantiate(sonidoFuego);
             animPlayer.SetBool("deadDemonFire", true);
             rigidPlayer.bodyType = RigidbodyType2D.Static;
             rb.bodyType = RigidbodyType2D.Static;

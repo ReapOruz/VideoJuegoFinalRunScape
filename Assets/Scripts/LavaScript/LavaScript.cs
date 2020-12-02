@@ -6,6 +6,7 @@ public class LavaScript : MonoBehaviour
 {
     public GameObject player;
     private Animator animatorPlayer;
+    public GameObject sonidoFire;
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class LavaScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            Instantiate(sonidoFire);
             animatorPlayer.SetBool("deadLava",true);
         }
 

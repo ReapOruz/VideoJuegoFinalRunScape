@@ -17,6 +17,7 @@ public class PinchosActive : MonoBehaviour
     public Text mensajeFinJuego;
     public GameObject demon;
     private Rigidbody2D rigidDemon;
+    public GameObject sonidoSangre;
 
     void Start()
     {
@@ -34,7 +35,7 @@ public class PinchosActive : MonoBehaviour
     {
         activarPinchos(contactoPlayer);
 
-        if (tiempoActivacion > 1.5f)
+        if (tiempoActivacion >= 1.5f)
         {
             bcPincho.size = new Vector2(0.6280966f, 0.9f);
         }
@@ -44,10 +45,11 @@ public class PinchosActive : MonoBehaviour
         }
 
 
-        if (tiempoActivacion > 1.5f && colliderPincho.IsTouching(colliderPersonaje))
+        if (tiempoActivacion >= 0.9f && colliderPincho.IsTouching(colliderPersonaje))
         {
             animatorPlayer.SetBool("isDead", true);
             rigidPlayer.bodyType = RigidbodyType2D.Static;
+            Instantiate(sonidoSangre);
             mensajeFinJuego.text = "Has muerto";
             rigidDemon.bodyType = RigidbodyType2D.Static;
         }
@@ -75,6 +77,7 @@ public class PinchosActive : MonoBehaviour
                 Debug.Log("Jugador ha muerto");
                 animatorPlayer.SetBool("isDead", true);
                 rigidPlayer.bodyType = RigidbodyType2D.Static;
+                Instantiate(sonidoSangre);
                 mensajeFinJuego.text = "Has muerto";
                 rigidDemon.bodyType = RigidbodyType2D.Static;
             }
